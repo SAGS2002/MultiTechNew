@@ -41,8 +41,18 @@
         }
 
         h1 { font-size: 3rem; }
-        h2 { font-size: 2.5rem; color: var(--color-primary); }
+        h2 { font-size: 2.5rem; color: var(--color-primary); margin-bottom: 5px; }
         h3 { font-size: 1.5rem; }
+
+        /* --- Clase para resaltar texto --- */
+
+        .resaltar {
+            background-color: rgba(76, 0, 255, 0.2);
+            box-shadow: 0 0 5px rgba(67, 1, 189, 0.4);
+            display: inline-block;
+            padding: 0.2em 0.3em;
+            border-radius: 8px;
+        }
 
         .container {
             width: 90%;
